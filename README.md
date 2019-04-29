@@ -15,4 +15,7 @@ shotty uses the configuration fgile created by the AWS cli. e.g.
 
 ## Running
 
-`pipenv run python shotty/shotty.py`
+`pipenv run python shotty/shotty.py <command> <--project=PROJECT>`
+
+*commands* are list, start or stop
+*project* optional
